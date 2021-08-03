@@ -1,5 +1,6 @@
 {
   "name": "huddle-landing-page-with-single-introductory-section",
+  "homepage": "https://edsonv.github.io/huddle-landing-page-with-single-introductory-section",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1"
   }
 }

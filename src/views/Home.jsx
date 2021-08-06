@@ -38,7 +38,7 @@ const Home = () => {
       </header>
       <footer className="footer row justify-content-center">
         <div className="col-10">
-          <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Edson J Vargas</a>.</p>
+          <p className="attribution">Challenge by <a href="https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/edsonv">Edson J Vargas</a>.</p>
         </div>
       </footer>
     </div>

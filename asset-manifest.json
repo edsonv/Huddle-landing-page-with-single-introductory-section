@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Huddle-landing-page-with-single-introductory-section/static/css/main.ad080dce.chunk.css",
-    "main.js": "/Huddle-landing-page-with-single-introductory-section/static/js/main.10b506e0.chunk.js",
-    "main.js.map": "/Huddle-landing-page-with-single-introductory-section/static/js/main.10b506e0.chunk.js.map",
+    "main.css": "/Huddle-landing-page-with-single-introductory-section/static/css/main.e95e504c.chunk.css",
+    "main.js": "/Huddle-landing-page-with-single-introductory-section/static/js/main.2b8ea251.chunk.js",
+    "main.js.map": "/Huddle-landing-page-with-single-introductory-section/static/js/main.2b8ea251.chunk.js.map",
     "runtime-main.js": "/Huddle-landing-page-with-single-introductory-section/static/js/runtime-main.8d54d79f.js",
     "runtime-main.js.map": "/Huddle-landing-page-with-single-introductory-section/static/js/runtime-main.8d54d79f.js.map",
     "static/js/2.fbf0e485.chunk.js": "/Huddle-landing-page-with-single-introductory-section/static/js/2.fbf0e485.chunk.js",
@@ -10,16 +10,16 @@
     "static/js/3.aa421e8b.chunk.js": "/Huddle-landing-page-with-single-introductory-section/static/js/3.aa421e8b.chunk.js",
     "static/js/3.aa421e8b.chunk.js.map": "/Huddle-landing-page-with-single-introductory-section/static/js/3.aa421e8b.chunk.js.map",
     "index.html": "/Huddle-landing-page-with-single-introductory-section/index.html",
-    "static/css/main.ad080dce.chunk.css.map": "/Huddle-landing-page-with-single-introductory-section/static/css/main.ad080dce.chunk.css.map",
+    "static/css/main.e95e504c.chunk.css.map": "/Huddle-landing-page-with-single-introductory-section/static/css/main.e95e504c.chunk.css.map",
     "static/js/2.fbf0e485.chunk.js.LICENSE.txt": "/Huddle-landing-page-with-single-introductory-section/static/js/2.fbf0e485.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/Huddle-landing-page-with-single-introductory-section/static/media/bg-desktop.6824779f.svg",
+    "static/media/index.scss": "/Huddle-landing-page-with-single-introductory-section/static/media/bg-mobile.41ba0830.svg",
     "static/media/illustration-mockups.264994a5.svg": "/Huddle-landing-page-with-single-introductory-section/static/media/illustration-mockups.264994a5.svg",
     "static/media/logo.6fe80c29.svg": "/Huddle-landing-page-with-single-introductory-section/static/media/logo.6fe80c29.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8d54d79f.js",
     "static/js/2.fbf0e485.chunk.js",
-    "static/css/main.ad080dce.chunk.css",
-    "static/js/main.10b506e0.chunk.js"
+    "static/css/main.e95e504c.chunk.css",
+    "static/js/main.2b8ea251.chunk.js"
   ]
 }

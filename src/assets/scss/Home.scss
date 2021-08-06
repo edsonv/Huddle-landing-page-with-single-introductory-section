@@ -1,0 +1,137 @@
+html, body {
+  min-width: 576px;
+}
+body {
+  background-image: url('../img/bg-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -135px 0;
+}
+
+[class*=container-] {
+  margin-top: 3.125rem;
+}
+
+.brand-bar {
+  margin-bottom: 7.462rem;
+}
+
+.hero-section {
+  .imageContainer {
+    margin-bottom: 8.251rem;
+  }
+  
+  .copyContainer {
+    margin-bottom: 7.976rem;
+  }
+
+  .copyContainer > .title {
+    font-family: Poppins;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 3.518rem;
+    width: 450px;
+  }
+  
+  .copyContainer > .lead {
+    font-family: 'Open Sans';
+    font-size: 1.625rem;
+    line-height: 1.48;
+    margin-bottom: 3.087rem;
+    width: 500px;
+  }
+
+  .copyContainer > .button {
+    width: 400px;
+    height: 82px;
+    color: hsl(257, 40%, 49%);
+    font-size: 20px;
+    border-radius: 41px;
+    border: none;
+  }
+
+  .copyContainer > .button:hover,
+  .copyContainer > .button:active {
+    background-color: hsl(300, 69%, 71%);
+    color: #FFFFFF;
+  }
+  
+  .socialLinksContainer {
+    margin-bottom: 7.976rem;
+
+    > .link > .icon {
+      font-size: 55px;
+      color: #FFFFFF;
+    }
+
+    > .link:hover > .icon,
+    > .link:active > .icon {
+      color: hsl(300, 69%, 71%);
+    }
+  }
+
+  .socialLinksContainer > .link {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .brand-bar {
+    margin-bottom: 5.875rem;
+
+    > .imageContainer > .image {
+      max-width: 201.02px;
+      height: auto;
+    }
+  }
+
+  .hero-section .row:first-child {
+    margin-bottom: 1.625rem;
+  }
+
+  .hero-section .row:last-child {
+    margin-bottom: 1.625rem;
+  }
+
+  .hero-section {
+
+    .imageContainer {
+      margin-bottom: unset;
+    }
+
+    .copyContainer {
+      padding-right: 0;
+      margin-bottom: unset;
+      margin-top: 35px;
+    }
+
+    .copyContainer > .title {
+      margin-bottom: 2.188rem;
+    }
+
+    .copyContainer > .lead {
+      width: auto;
+      max-width: 545px;
+      font-size:  1.2rem;
+      margin-bottom: 2.813rem;
+    }
+    
+    .copyContainer > .button {
+      font-size: 1.25rem;
+      width: 200px;
+      height: 57px;
+    }
+    
+    .socialLinksContainer {
+      margin-bottom: 7.976rem;
+  
+      > .link > .icon {
+        font-size: 40px;
+      }
+    }
+  }
+
+}

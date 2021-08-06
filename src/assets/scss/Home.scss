@@ -1,11 +1,11 @@
 html, body {
   min-width: 576px;
 }
+
 body {
-  background-image: url('../img/bg-desktop.svg');
-  background-size: cover;
+  background-image: url('../img/bg-mobile.svg');
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: -135px 0;
 }
 
 [class*=container-] {
@@ -36,10 +36,10 @@ body {
   
   .copyContainer > .lead {
     font-family: 'Open Sans';
-    font-size: 1.625rem;
+    font-size: 1.731rem;
     line-height: 1.48;
     margin-bottom: 3.087rem;
-    width: 500px;
+    width: 530px;
   }
 
   .copyContainer > .button {
@@ -58,7 +58,7 @@ body {
   }
   
   .socialLinksContainer {
-    margin-bottom: 7.976rem;
+    margin-bottom: 4.976rem;
 
     > .link > .icon {
       font-size: 55px;
@@ -78,7 +78,16 @@ body {
   }
 }
 
+.attribution { font-size: 11px; }
+.attribution a { color: hsl(55, 45%, 44%); }
+
 @media (min-width: 992px) {
+  body {
+    background-image: url('../img/bg-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -135px 0;
+  }
   .brand-bar {
     margin-bottom: 5.875rem;
 
@@ -93,7 +102,7 @@ body {
   }
 
   .hero-section .row:last-child {
-    margin-bottom: 1.625rem;
+    margin-bottom: 2rem;
   }
 
   .hero-section {
@@ -109,14 +118,14 @@ body {
     }
 
     .copyContainer > .title {
-      margin-bottom: 2.188rem;
+      margin-bottom: 1.563rem;
     }
 
     .copyContainer > .lead {
       width: auto;
       max-width: 545px;
       font-size:  1.2rem;
-      margin-bottom: 2.813rem;
+      margin-bottom: 1.563rem;
     }
     
     .copyContainer > .button {
@@ -126,8 +135,7 @@ body {
     }
     
     .socialLinksContainer {
-      margin-bottom: 7.976rem;
-  
+      margin-bottom: unset;
       > .link > .icon {
         font-size: 40px;
       }

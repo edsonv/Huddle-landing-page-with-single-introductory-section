@@ -1,6 +1,6 @@
-html, body {
-  min-width: 576px;
-}
+// html, body {
+//   min-width: 576px;
+// }
 
 body {
   background-image: url('../img/bg-mobile.svg');
@@ -31,7 +31,7 @@ body {
     text-transform: capitalize;
     line-height: 1.5;
     margin-bottom: 3.518rem;
-    width: 450px;
+    max-width: 450px;
   }
   
   .copyContainer > .lead {
@@ -39,16 +39,19 @@ body {
     font-size: 1.731rem;
     line-height: 1.48;
     margin-bottom: 3.087rem;
-    width: 530px;
+    max-width: 530px;
   }
 
   .copyContainer > .button {
-    width: 400px;
+    min-width: 200px;
+    width: 100%;
+    max-width: 400px;
     height: 82px;
     color: hsl(257, 40%, 49%);
     font-size: 20px;
     border-radius: 41px;
     border: none;
+    box-shadow: 0px 0px 10px rgba(33, 29, 40, 0.7);
   }
 
   .copyContainer > .button:hover,
